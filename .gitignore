@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.wrangler/
+.work/
+src/assets.generated.ts
+.env
+.dev.vars
+*.log
+public/*-original.png
