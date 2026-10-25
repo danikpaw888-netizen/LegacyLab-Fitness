@@ -3560,3 +3560,4 @@ select:disabled {
 /* Grid items must shrink on narrow screens; long headings may wrap. */
 .shell > *, .club-lead > *, .zone-grid > *, .detail-grid > *, .footer-grid > *, .section-head > * { min-width: 0; }
 h1,h2,h3 { overflow-wrap: break-word; }
+@media(max-width:767px){.faq-section .section-head h2 br{display:initial}}
