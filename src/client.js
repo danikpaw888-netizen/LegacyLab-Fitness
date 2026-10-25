@@ -1,0 +1,1 @@
+import {hydrateRoot} from 'react-dom/client';import {BrowserRouter} from 'react-router-dom';import {jsx} from 'react/jsx-runtime';import {App} from './app.js';hydrateRoot(document.getElementById('root'),jsx(BrowserRouter,{children:jsx(App,window.__BOOT__)}),{onRecoverableError:e=>window.__APP_ERRORS__.push(e.message)});

@@ -7,3 +7,5 @@ src/assets.generated.ts
 .dev.vars
 *.log
 public/*-original.png
+src/assets.generated.js
+public/assets/
