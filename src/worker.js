@@ -94,7 +94,7 @@ Sitemap: ` +
         ),
         r = JSON.stringify(n).replaceAll("<", "\\u003c"),
         M =
-          '<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#151713"/><title>' +
+          '<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#191715"/><title>' +
           vt(c.title) +
           '</title><meta name="description" content="' +
           vt(c.description) +
@@ -110,7 +110,7 @@ Sitemap: ` +
           vt(c.canonical) +
           '"/><meta property="og:image" content="' +
           fl.url +
-          '/og.png"/><meta name="twitter:card" content="summary_large_image"/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/><link rel="stylesheet" href="/assets/app.css?v=BUILD_VERSION"/></head><body><div id="root">' +
+          '/og.png"/><meta name="twitter:card" content="summary_large_image"/><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=BUILD_VERSION"/><link rel="stylesheet" href="/assets/app.css?v=BUILD_VERSION"/></head><body><div id="root">' +
           o +
           '</div><script nonce="' +
           u +
